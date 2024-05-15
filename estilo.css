@@ -25,3 +25,33 @@
     width:60px;
     height:80px;
     background-color:yellow;}   
+
+/**
+.mesa{ /** tag de separaçao para dar estilo a nossa mesa */
+    position: fixed; /** Define o posicionamento da nossa mesa */
+    width:900px; /** Define a largura da nossa mesa no navegador que esta executando */
+    height:600px; /** Define a altura da nossa mesa */
+    background-color: green; /** Define a cor da nossa mesa */
+      } /** Fechamento dos comandos que serao direcionados a div mesa */  
+.robot{ /** espaço para dar estilo a div robo */
+   position: relative; /** Define o posicionamento da area para o nosso robo(oponete) */
+   top:5px; /** Define a distancia da borda da tela do dispositivo que esta executando */
+   left:15px; /** define a distancia da parte esquerda da nossa tela */ 
+   width:160px; /** Define a largura da area reservada para o robo */
+   height:60px; /** Define a altura da area reservada para o robo */
+   background-color: black;  }   /** Define a cor da area do baralho do robo */ 
+.jogador{ /** espaço para dar estilo a div do jogador */
+    position: relative; /** Define o posicionamento da area do nosso conjunto de cartas  */
+    top:390px; /** Define a distancia da borda da tela do dispositivo  */
+    left:15px; /** define a distancia sobre a parte esquerda da nossa tela, deixando-a mais para a direita */ 
+    width:160px; /** Define a largura da nossa area na tela do dispositivo */
+    height:60px; /** Define a altura do nosso conjunto de cartas */
+    background-color: black; }   /** Define a cor da nossa area */ 
+.baralho{ /** espaço para dar estilo a div do baralho */
+    position: relative; /** Define o posicionamento da area do monte de cartas */
+    top:200px; /** Define a distancia da borda da tela do dispositivo */
+    left:315px; /** define a distancia da parte esquerda da nossa tela mais ao centro */ 
+    width:60px; /** Define a largura do monte de cartas  */
+    height:80px; /** Define a altura do monte de cartas */
+    background-color:yellow;}  /** Define a cor do monte de cartas*/  
+*/
